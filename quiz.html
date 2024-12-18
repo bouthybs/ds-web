@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+  <header>
+    
+    <nav class="navbar">
+      <a href="index.html" class="nav-item" style="--i: 0">Accueil</a>
+      <a href="education.html" class="nav-item" style="--i: 1">Parcours Académique</a>
+      <a href="competences.html" class="nav-item" style="--i: 2">Compétences</a>
+      <a href="quiz.html" class="nav-item" style="--i: 3">Quiz</a>
+      <a href="diplome.html" class="nav-item" style="--i: 4">Diplome</a>
+      <a href="temitt.html" class="nav-item" style="--i: 4">Témoin</a>
+      <a href="contact.html" class="nav-item" style="--i: 5">Contact</a>
+      
+  </nav>
+</header>
+  <div class="quiz-container">
+    <!-- Image at the top dynamically loaded -->
+    <div id="quiz-image-container">
+      <img id="quiz-image" src="" alt="Quiz Image">
+    </div>
+
+    <div id="quiz-box">
+      <h1>Interactive Quiz</h1>
+      <div id="question-container"></div>
+
+      <!-- Grid of answer options -->
+      <div id="answer-grid" class="answer-grid"></div>
+
+      <button id="next-btn" class="btn">Next</button>
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Score Modal -->
+  <div id="score-modal" class="modal">
+    <div class="modal-content">
+      <h2>Quiz Results</h2>
+      <p id="score-feedback"></p>
+      <div id="score-visualization">
+        <h3>Your Score:</h3>
+        <div id="score-display">0%</div>
+      </div>
+      <ul id="correct-answers-list"></ul>
+      <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="js/quiz.js"></script>
+</body>
+</html>

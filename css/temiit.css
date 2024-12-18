@@ -1,0 +1,144 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.5));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  .logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .logo i{
+     height: 45px;
+     width: 45px;
+     background-color:rgba(168, 239, 255, 0.9) ;
+     border-radius: 50%;
+     color: #fff;
+     font-weight: 700;
+     font-size: 1.5rem;
+     padding: 10px;
+     margin-right: 5px;
+     cursor: pointer;
+     text-align: center;
+  }
+  .logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  
+  .nav-item {
+    position: relative;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.13px;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    transition: all 0.5s ease;
+  }
+  
+  .nav-item:hover {
+    color: rgba(168, 239, 255, 0.9);
+  }
+  
+  .nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -0.3rem;
+    left: 50%;
+    width: 0;
+    height: 0.15rem;
+    transform: translateX(-50%);
+    background-color: rgba(168, 239, 255, 0.9);
+    transition: all 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+  }
+  
+  .icons {
+    position: absolute;
+    right: 5%;
+    font-size: 2.3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+
+
+/* --- En-tête --- */
+.header {
+    text-align: center;
+    margin: 10px 0;
+    color: #4682B4; 
+    font-size: 2rem; 
+    font-weight: bold;
+    
+}
+h1 {
+    text-align: center; /* titre mes diplomes */
+    color:rgba(168, 239, 255, 0.9);;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center; /* sous titres */
+    color: rgba(168, 239, 255, 0.9);;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: left; /* sous-sous titres */
+    color:rgba(168, 239, 255, 0.9);;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+  .video-section video {
+    width: 100%; 
+    height: auto; }
+  
+  .video-section {
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  ul li {
+    list-style: none;
+  
+  }
+  .temoi {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+   
+    vertical-align: middle;
+  }
+  .info-formation-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espace entre les deux sections */
+  }
+  
+  .information, .formation {
+    flex: 1; 
+    padding: 10px; /* Un peu d'espace à l'intérieur des sections */
+  }
+  
+  

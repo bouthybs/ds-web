@@ -1,0 +1,123 @@
+/* --- Configuration générale --- */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* --- Barre de navigation --- */
+.navbar {
+    background-color: #4682B4;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar a i {
+    margin-right: 8px;
+}
+
+.navbar a:hover {
+    color: #ffdd57;
+}
+
+
+
+/* --- En-tête --- */
+.header {
+    text-align: center;
+    margin: 10px 0;
+    color: #4682B4; 
+    font-size: 2rem; 
+    font-weight: bold;
+}
+h1 {
+    text-align: center; /* titre mes diplomes */
+    color: #175485;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center; /* sous titres */
+    color: #175485;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: left; /* sous-sous titres */
+    color: #4682B4;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px; /* largeur container */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Diplômes --- */
+.diplome {
+    margin-bottom: 40px; /* Espacement  entre les sections de diplôme */
+}
+
+.diplome-image {
+    margin: 20px 0; /* Espace pour les images de diplômes */
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.diplome-image img {
+    max-width: 80%; /* taille des images */
+    height: auto;
+}
+
+/* --- Full-width title class --- */
+.full-width {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: #4682B4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
